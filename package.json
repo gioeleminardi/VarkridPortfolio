@@ -1,0 +1,35 @@
+{
+  "name": "varkridportfolio",
+  "version": "0.0.1",
+  "description": "Custom single page app for making a personal portfolio and for learn some node-related stuff.",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server.js",
+    "run": "node server.js",
+    "run-dev": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gioeleminardi/VarkridPortfolio.git"
+  },
+  "keywords": [
+    "single-page",
+    "nodejs",
+    "personal",
+    "portfolio"
+  ],
+  "author": "Gioele Minardi <gioelem3@gmail.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gioeleminardi/VarkridPortfolio/issues"
+  },
+  "homepage": "https://github.com/gioeleminardi/VarkridPortfolio#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
